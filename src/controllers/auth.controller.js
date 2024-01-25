@@ -33,7 +33,7 @@ export const register = async (req, res) => {
       id: userSaved._id,
     });
 
-    localStorage.setItem("token", token);
+    
 
     res.cookie("token", token, {
       
